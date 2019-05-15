@@ -17,3 +17,123 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 ]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git add .
+]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git commit -m ""v"e"r"i"f"i"e"d" "d"f" "b"u"i"l"d" "[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"f" "b"u"i"l"d"e"r" "w"o"r"k"s"
+[master (root-commit) 57e431a] verified df builder works
+ 52 files changed, 1668 insertions(+)
+ create mode 100644 .Rproj.user/1A48E952/console06/63421875
+ create mode 100644 .Rproj.user/1A48E952/console06/63421875.env
+ create mode 100644 .Rproj.user/1A48E952/console06/INDEX001
+ create mode 100644 .Rproj.user/1A48E952/sources/prop/262220B7
+ create mode 100644 .Rproj.user/1A48E952/sources/prop/2D04D24D
+ create mode 100644 .Rproj.user/1A48E952/sources/prop/3287658F
+ create mode 100644 .Rproj.user/1A48E952/sources/prop/40F1ADC1
+ create mode 100644 .Rproj.user/1A48E952/sources/prop/548F322E
+ create mode 100644 .Rproj.user/1A48E952/sources/prop/7C923D24
+ create mode 100644 .Rproj.user/1A48E952/sources/prop/B3C48AD0
+ create mode 100644 .Rproj.user/1A48E952/sources/prop/BD0B90AC
+ create mode 100644 .Rproj.user/1A48E952/sources/prop/E75B9677
+ create mode 100644 .Rproj.user/1A48E952/sources/prop/F097E4F0
+ create mode 100644 .Rproj.user/1A48E952/sources/prop/INDEX
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/17BD8C13-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/20BBA7B4
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/20BBA7B4-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/2AB1415E
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/2AB1415E-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/396E120B-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/421EBD0B-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/48E9D955-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/560D748A-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/5C6D35AA-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/6317C42-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/65BA9BE8-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/7148AD7-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/73BABFF6-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/78119704-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/79817568-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/7CF0A14A
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/7CF0A14A-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/85B8CA5A-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/8F1D563E-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/9E32AD63-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/9EDE4634-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/A4A9998A-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/A4C13E3B-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/ADEF45A4-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/B6245A02-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/C5DAD75A-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/CAFF25DD-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/D8E47C5A-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/DA5C8264-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/E612F4DB-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/EFFAE6D3-contents
+ create mode 100644 .Rproj.user/1A48E952/sources/s-B936A459/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 .Rproj.user/shared/notebooks/paths
+ create mode 100644 eda.r
+ create mode 100644 scraping-starter.R
+ create mode 100644 stackoverflow.Rproj
+]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git push [K[K[K[K[K[K[K[K[Kgit init
+Reinitialized existing Git repository in /home/nick/Documents/stackoverflow/.git/
+]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git n[Kadd eda.r
+]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git add scraping-starter.R
+]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git add stackoverflow.Rporj[K[K[Kr[Kroj
+]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git commit -m "initial commit"
+On branch master
+Changes not staged for commit:
+	[31mmodified:   .Rproj.user/1A48E952/console06/63421875[m
+	[31mmodified:   .Rproj.user/1A48E952/console06/63421875.env[m
+
+no changes added to commit
+]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git remote add origin https://github/[K.com/nchaoFORR/sta ck-overflow-project.git
+]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git push -u origin master
+15 May 2019 23:21:47 [rpostback] ERROR system error 2 (No such file or directory); OCCURRED AT: void rstudio::core::http::LocalStreamAsyncClient::handleConnect(const rstudio_boost::system::error_code&) /home/ubuntu/rstudio/src/cpp/core/include/core/http/LocalStreamAsyncClient.hpp:119; LOGGED FROM: int exitFailure(const rstudio::core::Error&) /home/ubuntu/rstudio/src/cpp/session/postback/PostbackMain.cpp:46
+error: unable to read askpass response from 'rpostback-askpass'
+Username for 'https://github.com': nchaoFORR
+15 May 2019 23:22:01 [rpostback] ERROR system error 2 (No such file or directory); OCCURRED AT: void rstudio::core::http::LocalStreamAsyncClient::handleConnect(const rstudio_boost::system::error_code&) /home/ubuntu/rstudio/src/cpp/core/include/core/http/LocalStreamAsyncClient.hpp:119; LOGGED FROM: int exitFailure(const rstudio::core::Error&) /home/ubuntu/rstudio/src/cpp/session/postback/PostbackMain.cpp:46
+error: unable to read askpass response from 'rpostback-askpass'
+Password for 'https://nchaoFORR@github.com': 
+remote: Repository not found.
+fatal: repository 'https://github.com/nchaoFORR/stack-overflow-project.git/' not found
+]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git push -u origin masterremote add origin https://github.com/nchaoFORR/stacck-overflow-project.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K4bfd583a77cd4ea4301f6dd639e0d338 cbae3434[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[3Ppush -u origin master[Kgit push -u origin masterremote add origin 4bfd58commit -m "initial commit"[3Padd stackoverflow.Rproj[1Pcraping-starter.Reda.r[Kscraping-starter.Rtackoverflow.Rprojcommit -m "initial commit"[2Premote add origin 4bfd58[K[K[K[K[K[Khttps://github.com/nchaoFORR/sta ckoverflow-project.git
+fatal: remote origin already exists.
+]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git remote add origin https://github.com/nchaoFORR/stacckoverflow-project.git[A]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ [C[C[C[C[29Ppush -u origin master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin https://github.com/nchaoFORR/stacck-overflow-project.git[A]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ [C[C[C[C[24Pcommit -m "initial commit"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin https://github.com/nchaoFORR/stacck-overflow-project.git[A]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ [C[C[C[C[29Ppush -u origin master
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cremote add origin https://github.com/nchaoFORR/stacckoverflow-project.git[A]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit pull https://github.com/nchaoFORR/stackoverflow-pr oject.git
+warning: no common commits
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)   [Kremote: Counting objects:  66% (2/3)   [Kremote: Counting objects: 100% (3/3)   [Kremote: Counting objects: 100% (3/3), done.[K
+remote: Compressing objects:  50% (1/2)   [Kremote: Compressing objects: 100% (2/2)   [Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+From https://github.com/nchaoFORR/stackoverflow-project
+ * branch            HEAD       -> FETCH_HEAD
+Merge made by the 'recursive' strategy.
+ README.md | 2 [32m++[m
+ 1 file changed, 2 insertions(+)
+ create mode 100644 README.md
+]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/1A48E952/console06/63421875[m
+	[31mmodified:   .Rproj.user/1A48E952/console06/63421875.env[m
+	[31mmodified:   .Rproj.user/1A48E952/console06/INDEX001[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;/home/nick/Documents/stackoverflow]0;nick@nick-B450-AORUS-PRO-WIFI: ~/Documents/stackoverflow[01;32mnick@nick-B450-AORUS-PRO-WIFI[00m:[01;34m~/Documents/stackoverflow[00m$ git add .
