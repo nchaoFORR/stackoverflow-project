@@ -1,0 +1,6 @@
+stocktwits_raw <- read_html('http://stocktwits.com')
+
+
+
+stocktwits_raw %>% 
+  html_nodes(xpath = '//*[contains(concat( " ", @class, " " ), concat( " ", "st_1vC-yaI", " " )) and contains(concat( " ", @class, " " ), concat( " ", "st_VNaOUo1", " " ))]//div')

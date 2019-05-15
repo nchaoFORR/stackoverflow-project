@@ -1,0 +1,80 @@
+library(dplyr)
+library(rvest)
+library(purrr)
+library(XML)
+library(Rcurl)
+library(jsonlite)
+
+url <- "https://www.quanthockey.com/nhl/seasons/2018-19-nhl-players-stats.html"
+
+# read html
+raw_html <- read_html(url)
+
+# read xml -- see if this helps get out full data
+raw_xml <- htmlParse(getURL("https://www.quanthockey.com/nhl/seasons/2018-19-nhl-players-stats.html"), asText = TRUE)
+
+# get all our html text -- only get 50 players at a time until i figure js out
+tbl <- raw_html %>% 
+  html_nodes("td") %>% 
+  html_text()
+
+length(tbl)/50
+
+# grab the header of the table to for row names
+header <- raw_html %>% 
+  html_nodes("th") %>% 
+  html_text()
+
+header_clean <- header[17:length(header)]
+
+# our data is currently in a long vector. each player has 50 variables.
+# create an index vector so we can create a long dataframe that we'll spread
+player_index <- map(1:50, function(i) rep(i, 50)) %>%  unlist()
+
+
+vars <- rep(header_clean, 50)
+
+df_long <- data_frame(
+  
+  index = player_index,
+  data = tbl
+  
+)
+
+names(data) <- header_clean
+
+tmp <- map(1:50, function(i) {
+  
+  tmp1 <- df_long %>% 
+    filter(index == i) %>% 
+    select(-index)
+  tmp1[[1]]
+  
+})
+
+data <- do.call(rbind.data.frame, tmp)
+names(data) <- header_clean
+
+####################
+
+xml_table_node <- raw_xml %>% 
+  getNodeSet('//*[@id="AjaxRefresh"]/div[1]/ul[1]/li[4]/a')
+
+
+library(RSelenium)
+
+# run a chrome browser
+rD <- rsDriver()
+
+
+remDr <- rD$client
+
+
+# navigate to our page
+remDr$navigate("https://www.quanthockey.com/nhl/seasons/2018-19-nhl-players-stats.html")
+
+# try and snag our td's
+table_elements <- remDr$findElements(using = 'tag', value = "td")
+table_elements[[1]]$getElementText()
+
+for(i in 1:length(table_elements)) print(table_elements[[i]]$getElementText())

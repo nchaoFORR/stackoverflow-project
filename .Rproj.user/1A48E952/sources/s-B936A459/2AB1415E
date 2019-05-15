@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555972543302.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "2AB1415E",
+    "lastKnownWriteTime" : 1557960741,
+    "last_content_update" : 1557960741965,
+    "path" : "~/Documents/stackoverflow/scraping-starter.R",
+    "project_path" : "scraping-starter.R",
+    "properties" : {
+        "cursorPosition" : "60,0",
+        "scrollLine" : "40",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

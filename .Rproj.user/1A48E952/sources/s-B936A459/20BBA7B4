@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1555985165098.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3696260175",
+    "id" : "20BBA7B4",
+    "lastKnownWriteTime" : 1557962214,
+    "last_content_update" : 1557962214688,
+    "path" : "~/Documents/stackoverflow/eda.r",
+    "project_path" : "eda.r",
+    "properties" : {
+        "cursorPosition" : "91,6",
+        "scrollLine" : "61",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

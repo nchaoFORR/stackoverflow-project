@@ -1,0 +1,38 @@
+library(dplyr)
+library(stringr)
+library(purrr)
+library(here)
+
+all_data_list <- map(2008:2019, function(year) {
+  
+  read.csv(here("hockey-reference-data", str_c(year, ".csv")), stringsAsFactors = FALSE) %>%
+    #add column for season
+    mutate(season = year)
+  
+})
+
+tmp <- all_data_list[[1]]
+# map through the data to clean
+all_data_list_tmp <- map(all_data_list, function(df) {
+  
+  df <- tmp
+  
+  # make top row the new col names and remove top row
+  names(df) <- df[1, ] 
+  names(df)[2] <- "Team"
+  
+  df <- df[-1, ]
+  
+})
+
+tmp2 <- all_data_list_tmp[[1]]
+
+# combine into one lare dataframe
+
+all_data <- do.call(rbind.data.frame, all_data_list_tmp)
+
+## add playoff dummy and clean team name
+all_data <- 
+  all_data %>%
+  mutate(playoff = ifelse(str_detect(Team, "\\*"), 1, 0),
+         Team = str_replace(Team, "\\*", ""))

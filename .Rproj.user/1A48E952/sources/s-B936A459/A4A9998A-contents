@@ -1,0 +1,34 @@
+library(dplyr)
+library(readr)
+library(purrr)
+library(stringr)
+
+dir_data <- file.path("corsica-data/")
+
+# dirs_csv <- map_chr(1:11, function(i) {
+#   
+#   str_c(dir_data, "skater_stats_2018-12-29 (", i, ").csv")
+#   
+# })
+
+#dirs_csv <- c("/corsica-data/skater_stats_2018-12-29.csv", dirs_csv)
+
+# create vector that will be the names of individual datasets
+dataframe_names <- str_c(rep("data", 11), 1:11)
+
+# create list of all the data
+all_data <- map(1:11, function(i) {
+
+    read_csv(str_c(dir_data, "skater_stats_2018-12-29 (", i, ").csv"))
+  
+})
+
+# also get csv for the dataframe that didnt have a number
+all_data[[12]] <- read_csv(str_c(dir_data, "skater_stats_2018-12-29.csv"))
+
+# combine all our dataframes
+df_main <- do.call(rbind.data.frame, all_data)
+
+
+#write_rds(df_main, "nhl-corsica-20082019.rds")
+#write_csv(df_main, "nhl-corsica-20082019.csv")
